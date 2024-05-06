@@ -1,0 +1,9 @@
+type Query {
+    users: [User!]! @mock
+}
+
+type User {
+    id: ID!
+    name: String!
+    email: String!
+}
