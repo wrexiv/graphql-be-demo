@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Fruitcake\Cors\CorsServiceProvider::class,
+        Nuwave\Lighthouse\LighthouseServiceProvider::class
+
     ],
 
     /*

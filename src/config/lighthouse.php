@@ -57,11 +57,4 @@ return [
         'scalars' => 'App\\GraphQL\\Scalars',
         'directives' => ['App\\GraphQL\\Directives'],
     ],
-
-    'mocks' => [
-        'User' => [
-            'name' => 'John Doe',
-            'email' => 'john@example.com',
-        ],
-    ],
 ];

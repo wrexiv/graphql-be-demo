@@ -1,5 +1,5 @@
 type Query {
-    users: [User!]! @mock
+    users: [User!]! @field(resolver: "App\\GraphQL\\Queries\\Users")
 }
 
 type User {
