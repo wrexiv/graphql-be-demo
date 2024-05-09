@@ -1,1 +1,1 @@
-# mitla-be-demo
+# graphql-be-demo
