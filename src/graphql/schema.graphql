@@ -1,5 +1,4 @@
 type Query {
-    users: [User!]! @field(resolver: "App\\GraphQL\\Queries\\Users")
 }
 
 type User {
